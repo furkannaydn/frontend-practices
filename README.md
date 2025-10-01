@@ -1,39 +1,35 @@
-# 🌐 Frontend Practices
+# Frontend Practices
 
-This repository contains a collection of frontend projects and exercises built with **HTML5, CSS3, and JavaScript**.  
-It is part of my learning journey in web development, focusing on modern UI/UX, responsive design, and clean code practices.
+This repository contains my basic frontend exercises using HTML and CSS.  
+The projects are designed to practice fundamental HTML concepts and structure simple web pages.
 
----
+## Files
 
-## 📂 Projects
-Each folder represents a different project or practice:
+- `htmlbasics.html` → Covers the basic structure of an HTML page.  
+  It includes:
+  - `<!DOCTYPE html>` declaration and HTML structure (`<html>`, `<head>`, `<body>`)
+  - Headings (`<h1>`) and paragraphs (`<p>`)
+  - Ordered (`<ol>`) and unordered (`<ul>`) lists with multiple items
 
-- **Landing Page** – A simple and responsive landing page design  
-- **Portfolio Website** – Personal portfolio layout with sections and styling  
-- **CSS Grid Layout** – Practice project using CSS Grid for layouts  
-- **Navigation Bar** – Responsive navbar with hover effects  
+- `divspanhtml.html` → Practice of `<div>` and `<span>` elements.  
+  It demonstrates:
+  - Using `<div>` as a container with inline styling
+  - Wrapping paragraphs inside `<div>` and `<span>`
+  - Grouping content and applying colors to sections
+  - Using unordered lists (`<ul>`) within styled divs
 
----
+- `images.html` → Practice of adding images and links.  
+  It includes:
+  - Anchors `<a>` linking to external websites and local HTML pages
+  - Adding images with `<img>` and setting width, height, and alt text
+  - Using links to navigate between different HTML files
 
-## 🚀 Technologies Used
-- HTML5 (Semantic markup)  
-- CSS3 (Flexbox, Grid, Animations, Transitions)  
-- JavaScript (Optional: interactivity for some projects)  
-
----
-
-## 🎯 Purpose
-The goal of this repository is to:
-- Improve my frontend development skills  
-- Experiment with different layouts and styles  
-- Build a solid foundation for larger web development projects  
-
----
-
-## 📸 Preview (Optional)
-_Add screenshots or demo links here once projects are uploaded._  
+- `tablesandforms.html` → Practice of tables and forms.  
+  It includes:
+  - Tables with headers (`<th>`), rows (`<tr>`), and cells (`<td>`)
+  - Multiple forms with different input types: text, password, email, radio buttons, and select dropdown
+  - Linking forms to other HTML pages and demonstrating simple user input
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License** – feel free to use and modify the code with proper attribution.  
+All projects are created for **learning and practice purposes**, aiming to build a solid foundation in HTML and basic frontend development.
