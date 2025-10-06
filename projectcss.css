@@ -1,0 +1,64 @@
+h2
+{
+color: yellow;
+background-color:aquamarine ;
+}
+h3
+{
+    color: blueviolet;
+    background-color: lime;
+}
+h4
+{
+    color: orange;
+    background-color: lightgrey;
+}
+p
+{
+    color: brown;
+    
+}
+.firstdiv
+{
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(26, 166, 21);
+}
+#myparagraph
+{
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+}
+div
+{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+}
+span
+{
+    color: red;
+    background-color: lightgreen;
+}
+#secondparagraph
+{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+}
+.seconddiv
+{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+}
