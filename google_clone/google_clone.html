@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr"> <!-- Sayfanın dilini Türkçe olarak ayarlıyoruz -->
+<head>
+    <meta charset="UTF-8"> <!-- Türkçe karakter desteği için -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobil uyumluluk -->
+    <title>Google</title> <!-- Sekmede görünen sayfa başlığı -->
+    <style>
+        /* Sayfa genel stil ayarları */
+        body {
+            font-family: Arial, sans-serif; /* Yazı tipi */
+            display: flex; /* Ortalamak için flexbox kullanıyoruz */
+            flex-direction: column; /* Elemanları dikey hizalıyoruz */
+            align-items: center; /* Ortaya hizalama (yatay) */
+            justify-content: center; /* Ortaya hizalama (dikey) */
+            height: 100vh; /* Ekranın tamamını kapla */
+            margin: 0; /* Varsayılan boşluğu kaldır */
+        }
+
+        /* Google logosunun boyutu ve konumu */
+        img {
+            width: 272px; /* Google logosunun genişliği */
+            margin-bottom: 30px; /* Logodan sonra boşluk bırak */
+        }
+
+        /* Arama formunun genel düzeni */
+        .search-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Ortaya hizalama */
+        }
+
+        /* Arama kutusu (input) stili */
+        input[type="text"] {
+            width: 500px; /* Genişlik */
+            padding: 12px 20px; /* İç boşluk (üst-alt, sağ-sol) */
+            border: 1px solid #9b9999; /* Gri kenarlık */
+            border-radius: 30px; /* Yuvarlak köşeler */
+            outline: none; /* Tıklanınca mavi çerçeve olmasın */
+            font-size: 16px; /* Yazı boyutu */
+        }
+
+        /* Arama kutusuna hover efekti */
+        input[type="text"]:hover {
+            box-shadow: 0 1px 6px rgba(46, 73, 155, 0.28); /* Gölge efekti */
+            border-color: #1d3972; /* Hafif renk değişimi */
+        }
+
+        /* Butonların bulunduğu kapsayıcı */
+        .buttons {
+            margin-top: 20px; /* Input ile butonlar arasında boşluk */
+        }
+
+        /* Butonların genel stili */
+        .buttons input {
+            margin: 5px; /* Butonlar arasında boşluk */
+            padding: 10px 20px; /* Buton iç boşluğu */
+            background-color: #f8f9fa; /* Gri arka plan */
+            border: 1px solid #f8f9fa; /* Çerçeveyle aynı renk */
+            border-radius: 7px; /* Hafif yuvarlak köşeler */
+            color: #3c4043; /* Yazı rengi */
+            cursor: pointer; /* Üzerine gelince el işareti */
+            font-size: 14px; /* Yazı boyutu */
+        }
+
+        /* Buton hover efekti */
+        .buttons input:hover {
+            border: 1px solid #093a9e; /* Kenarlık rengi değişimi */
+            box-shadow: 0 10px 10px rgba(151, 11, 11, 0.1); /* Hafif gölge efekti */
+        }
+    </style>
+</head>
+<body>
+    <!-- Google logosu -->
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+    <!-- Arama formu -->
+    <form action="https://www.google.com/search" method="GET" class="search-container">
+        <!-- Arama kutusu -->
+        <input type="text" name="q" placeholder="Google'da ara">
+        
+        <!-- Butonlar -->
+        <div class="buttons">
+            <!-- Normal arama butonu -->
+            <input type="submit" value="Google Search">
+            <!-- I'm Feeling Lucky butonu -->
+            <input type="submit" name="btnI" value="I'm Feeling Lucky"><!--Normalde bir arama yaptığında Google bir sonuç listesi döndürür.
+Ama btnI parametresi gönderildiğinde, arama sonuç sayfası atlanır ve ilk çıkan sonucun URL’sine otomatik yönlendirme (redirect) yapılır.-->
+        </div>
+    </form>
+</body>
+</html>
