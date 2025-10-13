@@ -3,33 +3,67 @@
 This repository contains my basic frontend exercises using HTML and CSS.  
 The projects are designed to practice fundamental HTML concepts and structure simple web pages.
 
-## Files
+Overview
+This repository contains various web development projects and examples built using HTML, CSS, and Bootstrap. The projects range from basic web structures (tables, forms, input bars) to more advanced user interface designs, providing a comprehensive learning and practice environment for modern web development.
 
-- `htmlbasics.html` → Covers the basic structure of an HTML page.  
-  It includes:
-  - `<!DOCTYPE html>` declaration and HTML structure (`<html>`, `<head>`, `<body>`)
-  - Headings (`<h1>`) and paragraphs (`<p>`)
-  - Ordered (`<ol>`) and unordered (`<ul>`) lists with multiple items
+Projects and Files
 
-- `divspanhtml.html` → Practice of `<div>` and `<span>` elements.  
-  It demonstrates:
-  - Using `<div>` as a container with inline styling
-  - Wrapping paragraphs inside `<div>` and `<span>`
-  - Grouping content and applying colors to sections
-  - Using unordered lists (`<ul>`) within styled divs
+google_clone/
 
-- `images.html` → Practice of adding images and links.  
-  It includes:
-  - Anchors `<a>` linking to external websites and local HTML pages
-  - Adding images with `<img>` and setting width, height, and alt text
-  - Using links to navigate between different HTML files
+A clone of Google’s homepage.
 
-- `tablesandforms.html` → Practice of tables and forms.  
-  It includes:
-  - Tables with headers (`<th>`), rows (`<tr>`), and cells (`<td>`)
-  - Multiple forms with different input types: text, password, email, radio buttons, and select dropdown
-  - Linking forms to other HTML pages and demonstrating simple user input
+Includes search input bar and buttons for basic interaction.
 
----
+Purpose: Practice modern web design and user interface implementation.
 
-All projects are created for **learning and practice purposes**, aiming to build a solid foundation in HTML and basic frontend development.
+BootstrapForDjango/
+
+Bootstrap form examples and layout improvements.
+
+Purpose: Rapid and aesthetic form design for Django projects.
+
+HTML and CSS Basics
+
+cssbasics.html, htmlbasics.html, secondcss.html, second.css, projectcss.css
+
+Basic HTML and CSS structures, styling, and practical examples.
+
+Forms and Tables Examples
+
+tablesandforms.html, divspanhtml.html, images.html
+
+Examples of tables, forms, and incorporating visual content.
+
+Key Features
+
+Practical applications of basic and advanced HTML/CSS
+
+Bootstrap integration and form layout improvements
+
+Modern, clean, and user-friendly design principles
+
+Technologies Used
+
+HTML5
+
+CSS3
+
+Bootstrap
+
+Basic JavaScript
+
+Installation and Usage
+
+Clone the repository:
+
+git clone <repo-link>
+
+
+Open the desired file or project folder in your browser.
+
+Contributors
+
+Furkan Aydın
+
+License
+MIT License
