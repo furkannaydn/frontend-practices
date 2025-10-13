@@ -1,69 +1,50 @@
-# Frontend Practices
+# Furkan Aydın Web Projects
 
-This repository contains my basic frontend exercises using HTML and CSS.  
-The projects are designed to practice fundamental HTML concepts and structure simple web pages.
+---
 
-Overview
-This repository contains various web development projects and examples built using HTML, CSS, and Bootstrap. The projects range from basic web structures (tables, forms, input bars) to more advanced user interface designs, providing a comprehensive learning and practice environment for modern web development.
+## Overview
+Welcome to my web development projects repository! This collection includes a variety of HTML, CSS, and Bootstrap projects ranging from basic structures such as tables and forms to more advanced user interface designs. The projects are designed to help practice modern web development principles and create clean, user-friendly interfaces.
 
-Projects and Files
+---
 
-google_clone/
+## Projects and Files
 
-A clone of Google’s homepage.
+### 1. **google_clone/**
+- A clone of Google’s homepage.
+- Features a search input bar and interactive buttons.
+- **Purpose:** Practice modern web design and UI implementation.
 
-Includes search input bar and buttons for basic interaction.
+### 2. **BootstrapForDjango/**
+- Bootstrap form examples with improved page layouts.
+- **Purpose:** Quickly build aesthetic and functional forms for Django projects.
 
-Purpose: Practice modern web design and user interface implementation.
+### 3. **HTML & CSS Basics**
+- Files: `cssbasics.html`, `htmlbasics.html`, `secondcss.html`, `second.css`, `projectcss.css`
+- **Purpose:** Learn and practice basic HTML/CSS structures, styling, and practical examples.
 
-BootstrapForDjango/
+### 4. **Forms and Tables Examples**
+- Files: `tablesandforms.html`, `divspanhtml.html`, `images.html`
+- **Purpose:** Examples of tables, forms, and visual content integration.
 
-Bootstrap form examples and layout improvements.
+---
 
-Purpose: Rapid and aesthetic form design for Django projects.
+## Key Features
+- Clean and modern web design principles
+- Practical applications of HTML, CSS, and Bootstrap
+- User-friendly and responsive layouts
+- Interactive elements like buttons and input fields
 
-HTML and CSS Basics
+---
 
-cssbasics.html, htmlbasics.html, secondcss.html, second.css, projectcss.css
+## Technologies Used
+- HTML5  
+- CSS3  
+- Bootstrap  
+- Basic JavaScript
 
-Basic HTML and CSS structures, styling, and practical examples.
+---
 
-Forms and Tables Examples
-
-tablesandforms.html, divspanhtml.html, images.html
-
-Examples of tables, forms, and incorporating visual content.
-
-Key Features
-
-Practical applications of basic and advanced HTML/CSS
-
-Bootstrap integration and form layout improvements
-
-Modern, clean, and user-friendly design principles
-
-Technologies Used
-
-HTML5
-
-CSS3
-
-Bootstrap
-
-Basic JavaScript
-
-Installation and Usage
-
-Clone the repository:
-
+## Installation & Usage
+1. Clone the repository:  
+```bash
 git clone <repo-link>
-
-
-Open the desired file or project folder in your browser.
-
-Contributors
-
-Furkan Aydın
-
-License
-MIT License
