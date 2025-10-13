@@ -1,0 +1,18 @@
+.btn-success
+{
+    background-color: blueviolet;
+}
+.carosue
+{
+    width: 50%;
+    height: 50%;
+}
+.myclass
+{
+    margin: 30px;
+}
+p
+{
+    border: 10px solid black;
+    margin-top: 20px;
+}
